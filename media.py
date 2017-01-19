@@ -15,11 +15,14 @@ import webbrowser
 class Movie(object):
     """Docstring for Movie. This class provides a way to store movie related information."""
 
-#The super keyword in the __init__ function is useful for multiple inheritance should I choose
-#to create a subclass to the baseclass 'Movie' and future code refactoring
+# The super keyword in the __init__ function is useful for multiple inheritance
+# should I choose to create a subclass to the baseclass 'Movie'
+# and for future code refactoring
+
+# I chose these variable definitions to match the variables named
+# in the Udacity supplied fresh_tomatoes.py file
     def __init__(self, movie_title, movie_storyline,poster_image_url,trailer_youtube):
         super(Movie, self).__init__()
-# I chose these variable definitions to match the variables named in the Udacity supplied fresh_tomatoes.py file
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image_url
