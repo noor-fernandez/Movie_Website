@@ -13,5 +13,8 @@ The necesarry files can be [downloaded here](https://github.com/nortorious-flame
 -Unzip the files installed in the **download** section and save them all under the same directory. 
 -Open and run the python file * *entertainment_center.py* in IDLE, the bundled text editor in python, by pressing F5.
 
+## Acknowledgements
+I used the code supplied by Udacity in the fresh_tomatoes.py file and I did browse GitHub for sample README'S so better guide my own efforts. Due credit goes to those sources.
+
 ## License
 This repository is provided under the MIT License. If you would like to read what that entails, please refer to the [license](https://github.com/nortorious-flame89/Movie_Website/blob/master/LICENSE) page in this repository.
