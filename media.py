@@ -1,14 +1,30 @@
-import webbrowser #This imports the module webbrowser used in the second function 'show_trailer'
+#############################
+# Project 1: Movie Website
+# Date Started: 01/15/2017
+# Date Completed: 01/18/2017
+# Project by: Noor Fernandez
+#############################
+
+########################################## Media File #########################################
+# Description: This file creates the base class 'Movie' to allow for instances of this class
+#              to be used in the entertainment_center.py file. Class definition and parameters
+#              from the class Python Foundations on Udacity.
+###############################################################################################
+import webbrowser
 
 class Movie(object):
-    """Docstring for Movie. This class provides a way to store movie related information.""" #In-function documentation
+    """Docstring for Movie. This class provides a way to store movie related information."""
 
-    def __init__(self, movie_title, movie_storyline,poster_image_url,trailer_youtube): #init function for class 'Movie'
-        super(Movie, self).__init__() #The super keyword is useful for multiple inheritance should I choose
-        self.title = movie_title      #to create a subclass to the baseclass 'Movie' and future code refactoring
+#The super keyword in the __init__ function is useful for multiple inheritance should I choose
+#to create a subclass to the baseclass 'Movie' and future code refactoring
+    def __init__(self, movie_title, movie_storyline,poster_image_url,trailer_youtube):
+        super(Movie, self).__init__()
+# I chose these variable definitions to match the variables named in the Udacity supplied fresh_tomatoes.py file
+        self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image_url
-        self.trailer_youtube_url = trailer_youtube #These are all the parameters for the init function
+        self.trailer_youtube_url = trailer_youtube
 
+#Opens the youtube trailer on the fresh_tomatoes webpage
     def show_trailer(self):
-        webbrowser.open(self.trailer_youtube_url) #Opens the youtube trailer on the fresh_tomatoes webpage
+        webbrowser.open(self.trailer_youtube_url)
