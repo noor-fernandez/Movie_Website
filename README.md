@@ -4,7 +4,7 @@ This repository contains all the files needed to access my movie website for Uda
 ## Instalation Instructions
 
 ### Download
-The necesarry files can be [downloaded here](https://github.com/nortorious-flame89/Movie_Website.git). 
+The necesary files can be [downloaded here](https://github.com/nortorious-flame89/Movie_Website.git). 
 
 ### Aditional installations & Running the website
 -Other things this project requires is Python 2.7 which can be [downloaded here](https://www.python.org/download/releases/2.7/). 
