@@ -12,6 +12,7 @@ The necesary files can be [downloaded here](https://github.com/nortorious-flame8
   * Alternatively if you use Ubuntu 16.04, then you can download Python 2.7 using the following terminal command                 `sudo apt-get      install python` because Ubuntu 16.04 has python 3 installed by default.
   
 -Unzip the files installed in the **download** section and save them all under the same directory. 
+
 -Open and run the python file  *entertainment_center.py* in IDLE, the bundled text editor in python, by pressing F5.
 
 ## Acknowledgements
