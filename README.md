@@ -15,7 +15,7 @@ The necessary files can be [downloaded here](https://github.com/noor-fernandez/M
   python --version
   ``` 
  The end result should be this screenshot:
- ![Screenshot](Pictures/Python-Version.png)
+ ![Screenshot](Movie_Website/Python-Version.png)
   
 -Unzip the files installed in the **download** section and save them all under the same directory. 
 
