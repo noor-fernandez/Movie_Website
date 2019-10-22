@@ -9,7 +9,8 @@ The necessary files can be [downloaded here](https://github.com/noor-fernandez/M
 ### Additional installations & Running the website
 -Other things this project requires is Python 2.7 which can be [downloaded here](https://www.python.org/download/releases/2.7/). 
   * Be sure to scroll down to the download tab of the webpage. 
-  * Alternatively if you use Ubuntu 16.04, then you can download Python 2.7 using the following terminal command                 `sudo apt-get      install python` because Ubuntu 16.04 has python 3 installed by default.
+  * Alternatively if you use Ubuntu 16.04, then you can download Python 2.7 using the following terminal command                 ```sudo apt-get      install python``` 
+  because Ubuntu 16.04 has python 3 installed by default.
   
 -Unzip the files installed in the **download** section and save them all under the same directory. 
 
